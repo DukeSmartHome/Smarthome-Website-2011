@@ -1,8 +1,8 @@
 ; $Id: genesis_SUBTHEME.info,v 1.25 2011/01/14 03:12:40 jmburnz Exp $
 
 ; Change the name to match your new subthemes name and modify the description.	
-  name         = Genesis SUBTHEME
-  description  = My Kickn' Sub-theme
+  name         = Smart Home
+  description  = Custom theme for the Duke Smart Home created by Dean Chen(dean.chen@duke.edu) and design by Justine Tiu(justine.tiu@duke.edu)
   core         = 7.x
   engine       = phptemplate
   screenshot   = genesis-subtheme.png
