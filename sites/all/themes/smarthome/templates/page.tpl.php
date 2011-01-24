@@ -76,9 +76,9 @@
       </div>
     <?php endif; ?>
 
-    <?php if ($secondary_menu_links): ?>
-      <div id="secondary-menu-wrapper" class="clearfix">
-        <div class="secondary-menu-inner"><?php print $secondary_menu_links; ?></div>
+    <?php if ($main_menu_links): ?>
+      <div id="main-menu-wrapper" class="clearfix">
+        <div class="main-menu-inner"><?php print $main_menu_links; ?></div>
       </div>
     <?php endif; ?>
 
@@ -113,12 +113,12 @@
       <?php endif; ?>
 
     </div> <!-- /header -->
-
-    <?php if ($main_menu_links): ?>
-      <div id="main-menu-wrapper" class="clearfix">
-        <div class="main-menu-inner"><?php print $main_menu_links; ?></div>
+    <?php if ($secondary_menu_links): ?>
+      <div id="secondary-menu-wrapper" class="clearfix">
+        <div class="secondary-menu-inner"><?php print $secondary_menu_links; ?></div>
       </div>
     <?php endif; ?>
+    
 
   <?php endif; // end hide in overlay ?>
 

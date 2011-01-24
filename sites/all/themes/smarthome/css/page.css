@@ -27,8 +27,8 @@ body {
  * Fixed widths use pixels,       e.g. 960px
  */
 #container {
-  width: 85%;
-  min-width: 960px;
+  width: 940px;
+  min-width: 940px;
 }
 
 /* Column wrappers */

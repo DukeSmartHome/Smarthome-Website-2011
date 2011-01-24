@@ -60,11 +60,14 @@ ul.menu li.last  {}
 /* #main-menu-wrapper .main-menu-inner {display: table; margin: 0 auto; text-align: center;} */
 
 #main-menu-wrapper {
-  margin: 0.75em 0;
+  
 }
 
 #main-menu {
-  background: #DDD; /* Default gray for dev only. */
+  background-image: url('/sites/all/themes/smarthome/images/slices/nav_bg.png');
+  height: 34px;
+  font-family: “Helvetica Neue”, Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
   font-weight: bold;
   margin: 0;
   padding: 0;
@@ -73,15 +76,27 @@ ul.menu li.last  {}
 /* Modify the margin to set tab spacings. */
 #main-menu li {
   display: inline;
-  line-height: 2;
   list-style: none;
-  margin: 0 1em;
+  margin: 0 0em;
   padding: 0;
+  
 }
 
 #main-menu li a {
+  background: url('/sites/all/themes/smarthome/images/slices/nav_unsel.png');
+  color: white;
+  display: block;
+  float: left;
+  height: 34px;
+  line-height: 2em;
+  text-align: center;
   text-decoration: none;
   white-space: nowrap;
+  width: 100px;
+}
+
+#main-menu li.active a, #main-menu li a:hover {
+  background: url('/sites/all/themes/smarthome/images/slices/nav_sel.png');
 }
 
 /* Set pseudo class styles. */
