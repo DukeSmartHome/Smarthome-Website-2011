@@ -5,6 +5,7 @@
  **********************************************************/
 
 body {
+  font-family: “Helvetica Neue”, Arial, Helvetica, sans-serif;
   padding: 0 10px;
   margin: 0;
 }
@@ -48,7 +49,10 @@ body {
  *                 Header Elements
  **********************************************************/
 /* #header wraps #branding and #header-blocks. */
-#header {}
+#header {
+  background-image: url('/sites/all/themes/smarthome/images/slices/subnav_bg.png');
+  height: 71px;
+}
 
 /* #branding wraps #logo, #site-name and #site-slogan. */
 #branding {
@@ -71,7 +75,9 @@ h1.logo-site-name  {}
 }
 
 /* Logo. */
-#logo {}
+#logo {
+  padding: 6px 20px 1px 20px;
+}
 
 #site-name {
   font-weight: bold; /* Bold or else the line heights vary. */
@@ -197,7 +203,20 @@ ol.search-results .search-info {}
   margin: 0.375em 0;
 }
 
-#footer .region {}
+#footer .region {
+  background-image: url('/sites/all/themes/smarthome/images/slices/footer_bg.png');
+  color: white;
+  font-size: .9em;
+  font-weight: bold;
+  height: 22px;
+  line-height: 2em;
+  padding: 0px 7px;
+}
+
+
+#footer .credit {
+  float: right;
+}
 
 .feed-icon {}
 .feed-icon img {
