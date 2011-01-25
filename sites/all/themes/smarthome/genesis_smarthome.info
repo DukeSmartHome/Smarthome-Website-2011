@@ -7,7 +7,10 @@
   engine       = phptemplate
   screenshot   = genesis-subtheme.png
   base theme   = genesis
-
+  
+  ; custom layouts for panels in /layouts
+  plugins[panels][layouts] = layouts
+  
 ; Uncomment for a Dark style theme. @TODO - need to revamp dark css.
   ;stylesheets[all][] = css/dark/dark.css
 
