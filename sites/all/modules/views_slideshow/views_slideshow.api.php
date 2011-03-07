@@ -110,8 +110,9 @@ function hook_views_slideshow_widget_info() {
 /**
  * Form fields to be added for a specific widget type. Example of a widget type would be views_slideshow_pager or views_slideshow_slide_counter.
  */
-function [widget-type]_views_slideshow_widget_form_options(&$form, $form_state, $view, $defaults, $dependency) {
-}
+ 
+//function [widget-type]_views_slideshow_widget_form_options(&$form, $form_state, $view, $defaults, $dependency) {
+//}
 
 /**
  * Define JS methods to be run when a certain slideshow action is fired.
