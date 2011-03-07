@@ -1,0 +1,60 @@
+.page-home .block {
+  margin: 0px;
+}
+
+#homepage .middle-wrapper,
+#homepage .bottom-wrapper {
+  clear: both;
+}
+
+#homepage .pane-title {
+  font-size: 1.7em;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+#homepage .caption .field-item {
+  position: relative;
+  width: 300px;
+}
+
+/**
+ *   Middle wrapper
+ */
+ 
+/* border for upcoming events */
+#homepage .middle-wrapper .panel-col-last .pane-title {
+  border-bottom: 2px solid #DDD;
+  margin-top: -0.3em; /* align title with calendar embed */
+  padding-bottom: 0.2em;
+}
+
+#homepage .middle-wrapper .event-title {
+  text-transform: uppercase;
+}
+
+#homepage .middle-wrapper .field-type-text-with-summary {
+  font-size: 1.2em;
+}
+
+/**
+ *   Bottom blocks
+ */
+ 
+#homepage .pane-title a {
+  color: #333;
+}
+ 
+#homepage .bottom-wrapper .field-type-image {
+  float: left;
+  margin: 0px 20px 0px 0px;
+}
+
+#homepage .bottom-wrapper .field-type-text-with-summary {
+  font-size: 1.3em;
+}
+
+#homepage .bottom-wrapper .node-links {
+  display: none;
+}

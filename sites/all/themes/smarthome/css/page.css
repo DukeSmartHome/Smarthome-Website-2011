@@ -5,11 +5,20 @@
  **********************************************************/
 
 body {
+  color: #333;
   font-family: “Helvetica Neue”, Arial, Helvetica, sans-serif;
   padding: 0 10px;
   margin: 0;
 }
-	
+
+a {
+  color: #008C00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 /**********************************************************
  *                  The wrapper divs
  *    Be careful how you modify these, see layout.css
@@ -207,10 +216,9 @@ ol.search-results .search-info {}
   background-image: url('/sites/all/themes/smarthome/images/slices/footer_bg.png');
   color: white;
   font-size: .9em;
-  font-weight: bold;
   height: 22px;
   line-height: 2em;
-  padding: 0px 7px;
+  padding: 0px 8px;
 }
 
 

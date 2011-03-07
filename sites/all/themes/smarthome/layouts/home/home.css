@@ -1,0 +1,38 @@
+/* $Id: twocol_bricks.css,v 1.2 2010/01/21 07:11:42 sdboyer Exp $ */
+
+.panel-homepage { 
+/*  overflow: hidden;  */
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.panel-homepage .panel-separator {
+  clear: both;
+  height: 2.5em;
+}
+
+.panel-homepage .panel-col-top { 
+  width: 940px; 
+  clear: both;
+}
+
+.panel-homepage .middle-wrapper .panel-col-first {
+  width: 300px;
+  margin-right: 20px;
+  float: left;
+}
+
+.panel-homepage .middle-wrapper .panel-col-last {
+  width: 620px;
+  float: left;
+}
+
+.panel-homepage .bottom-wrapper .panel-panel {
+  float: left;
+  margin-right: 20px;
+  width: 300px;
+}
+
+.panel-homepage .bottom-wrapper .panel-col-last {
+  margin-right: 0px;
+}

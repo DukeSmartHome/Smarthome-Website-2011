@@ -1,3 +1,5 @@
-*.class
-*.pyc
-*.pyo
+.DS_Store
+backups/*
+tmp/*
+sites/default/files/*
+sites/default/settings.php

@@ -27,6 +27,9 @@
   stylesheets[all][] = css/navigation.css
   stylesheets[all][] = css/views-styles.css
   stylesheets[all][] = css/custom.css
+  stylesheets[all][] = css/smarthome.css
+  stylesheets[all][] = css/homepage.css
+  
 
 ; The regions defined in the page.tpl.php file. The name in brackets is the 
 ; name of the variable. The text after the = sign is the short description 
