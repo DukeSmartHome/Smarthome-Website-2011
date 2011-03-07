@@ -143,8 +143,8 @@ function hook_views_slideshow_widget_pager_settings($view) {
 /**
  * Hook called by the pager widget to add form items.
  */
-function [widget-type]_views_slideshow_widget_pager_form_options(&$form, &$form_state, &$view, $defaults, $dependency) {  
-}
+//function [widget-type]_views_slideshow_widget_pager_form_options(&$form, &$form_state, &$view, $defaults, $dependency) {  
+//}
 
 /**
  * @} End of "addtogroup hooks".
